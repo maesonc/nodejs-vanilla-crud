@@ -1,0 +1,28 @@
+{
+    "name": "nodejs-vanilla-crud",
+    "version": "1.0.0",
+    "description": "Basic nodejs (without Express) CRUD app",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "devStart": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maesonc/nodejs-vanilla-crud.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maesonc/nodejs-vanilla-crud/issues"
+    },
+    "homepage": "https://github.com/maesonc/nodejs-vanilla-crud#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "mongodb": "^3.6.3",
+        "mongoose": "^5.10.13",
+        "nodemon": "^2.0.6",
+        "uuid": "^8.3.1"
+    }
+}
